@@ -1,0 +1,15 @@
+{
+  "name": "modcxblog-latest-article-api",
+  "version": "1.0.0",
+  "description": "API to serve an image with the latest ModCxBlog article info.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "express": "^4.18.2",
+    "pureimage": "0.3.6",
+    "cheerio": "^1.0.0-rc.12"
+  }
+}
